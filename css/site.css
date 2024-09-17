@@ -1,5 +1,7 @@
 body {
     background-color: #EEE2DC;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3 {
@@ -58,6 +60,7 @@ ul {
 
   .joshimg {
 
-    align-items: center;
+    display: flex;
+    justify-content: center;
 
   }
