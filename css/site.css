@@ -5,17 +5,25 @@ body {
 }
 
 h1, h2, h3 {
-    color:white;
+    color:lightcyan;
+    
+    white-space: normal;
+    overflow-wrap: break-word;
+    width: 500px;
+    text-align: center;
 }
 
 h4, h5, h6, p {
-    color:white;
+    color:lightgoldenrodyellow;
+    white-space: normal;
+    overflow-wrap: break-word;
+    width: 500px;
+    text-align: center;
 }
 
 .center {
-    display: flex;
     justify-content: center;
-    flex-direction: column;
+    display: flex;
 }
 
 ul {
