@@ -13,7 +13,7 @@
 body {
     font-family: "Inter", sans-serif;
     background-color: #232a37;
-    color: #F8FAFC;
+    color: white;
     line-height: 1.6;
 }
 
@@ -29,6 +29,7 @@ p {
 main {
     padding: 1rem;
     margin: 1rem;
+    display: flex;
 }
 
 /*****************************************
@@ -62,7 +63,7 @@ main {
 
 /*****************************************
 *                                        *
-*                NAVIGATION              *
+*       HORIZONTAL NAVIGATION TABS       *
 *                                        *
 ******************************************/
 
@@ -70,8 +71,8 @@ main {
 
     ul{
         list-style-type: none;
-        margin: 0;
-        padding: 0;
+        margin-left: 80px;
+        padding-left: 20px;
         overflow: hidden;
         background-color: #1d232e;
     }
@@ -120,6 +121,98 @@ main {
     }
 
     h2 {
-        padding: 3rem 0 1rem 4rem;
+        padding-top: 2rem;
     }
+
+    h3 {
+        padding-top: 2rem;
+        width: 650px;
+        text-wrap: balance;
+    }
+
+    img {
+        width: 500px;
+        height: auto;
+        border-radius: 2px;
+        background: linear-gradient(135deg, hotpink, yellow);
+        padding: 8px;
+        object-fit: cover;
+    }
+}
+
+/*****************************************
+*                                        *
+*                HERO BUTTONS            *
+*                                        *
+******************************************/
+
+.button-container {
+
+    display: flex;
+    gap: 2rem;
+    padding-top: 3rem;
+    justify-content: left;
+}
+
+.custom-button-1 {
+
+    display: inline-block;
+    text-align: center;
+    padding: 1rem 4rem 1rem 4rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid yellow;
+    border-radius: 2px;
+    background-color: #232a37;
+    color: white;
+
+}
+
+.custom-button-1:hover {
+    background: linear-gradient(45deg, hotpink, yellow);
+}
+
+.custom-button-2 {
+
+    display: inline-block;
+    text-align: center;
+    padding: 1rem 4rem 1rem 4rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid yellow;
+    border-radius: 2px;
+    background-color: yellow;
+    color: #232a37;
+
+}
+
+.custom-button-2:hover {
+    background: linear-gradient(45deg, hotpink, yellow);
+}
+
+/*****************************************
+*                                        *
+*            VERTICAL NAV LINKS          *
+*                                        *
+******************************************/
+
+.site-layout {
+    display: flex;
+    position: fixed; top: 0; left: 0; width: 80px; height: 100vh;
+}
+
+.site-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: hotpink;
+    width: 80px;
+    padding: 6px;
+    gap: 1rem;
+}
+
+.site-imgs {
+    width: 64px;
 }
