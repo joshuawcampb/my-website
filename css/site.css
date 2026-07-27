@@ -28,7 +28,7 @@ p {
 
 main {
     padding: 1rem;
-    margin: 1rem;
+    justify-content: center;
     display: flex;
 }
 
@@ -63,22 +63,23 @@ main {
 
 /*****************************************
 *                                        *
-*       HORIZONTAL NAVIGATION TABS       *
+*            HORIZONTAL NAVBAR           *
 *                                        *
 ******************************************/
 
-.navbar {
+.horizontal-navbar {
 
     ul{
         list-style-type: none;
-        margin-left: 80px;
-        padding-left: 20px;
+        margin-left: 2.5rem;
         overflow: hidden;
         background-color: #1d232e;
+        display: flex;
+        justify-content: center;
     }
 
     li{
-        float: left;
+        float: right;
     }
 
     a{
@@ -194,25 +195,26 @@ main {
 
 /*****************************************
 *                                        *
-*            VERTICAL NAV LINKS          *
+*            VERTICAL NAVBAR             *
 *                                        *
 ******************************************/
 
 .site-layout {
     display: flex;
-    position: fixed; top: 0; left: 0; width: 80px; height: 100vh;
+    position: fixed; top: 0; left: 0; width: 2.5rem; height: 100vh;
 }
 
-.site-links {
+.vertical-navbar {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
     background-color: hotpink;
-    width: 80px;
+    width: 2.5rem;
     padding: 6px;
     gap: 1rem;
 }
 
-.site-imgs {
-    width: 64px;
+.nav-imgs {
+    width: 25px;
 }
