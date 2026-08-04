@@ -395,7 +395,7 @@ footer {
             padding-top: 1rem;
             grid-template-columns: repeat(1, 1fr);
             gap: 9rem;
-            margin: 3rem 5rem 17rem 5rem;
+            margin: 3rem 5rem 13.5rem 5rem;
         }
 
         a{
@@ -410,7 +410,7 @@ footer {
     }
 }
 
-@media (max-width: 1475px){
+@media (max-width: 1560px){
 
     .flex {
         flex-direction: column;
@@ -440,7 +440,6 @@ footer {
     .contact-container {
         a {
             padding: 1rem;
-
         }
     }
 
@@ -454,7 +453,17 @@ footer {
         justify-content: center;
     }
 
-    footer {
-        text-align: center;
+    .about {
+        .img-container {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            width: 225px;
+            height: 200px;
+        }
     }
 }
