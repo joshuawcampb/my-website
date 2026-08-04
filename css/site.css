@@ -36,10 +36,11 @@ main {
 
 footer {
 
-    margin: 3rem 3.5rem 1rem 5rem;
-    text-indent: 4rem;
+    margin: 1rem;
     display: flex;
     align-items: center;
+    text-align: center;
+    justify-content: center;
     border-top: 2px solid hotpink;
     padding: 1rem;
 
@@ -418,7 +419,7 @@ footer {
     .hero {
         img {
             margin-top: 2rem;
-            margin-left: 2.5rem;
+            justify-content: center;
         }
 
         h3 {
@@ -454,7 +455,6 @@ footer {
     }
 
     footer {
-        text-align: left;
-        margin: 3rem 0 .5rem .1rem;
+        text-align: center;
     }
 }
