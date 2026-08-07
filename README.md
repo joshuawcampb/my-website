@@ -1,5 +1,9 @@
 # Personal Portfolio Website
 
+<img src="homepage.png" width="650">
+
+## Overview
+
 A responsive personal portfolio website built with **HTML** and **CSS** to strengthen my front-end web development skills. This project focuses on creating a clean, professional, and mobile-friendly website while learning core web design principles and modern responsive layouts.
 
 ## Features
