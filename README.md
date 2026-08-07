@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-<img src="homepage.png" width="500">
+<img src="homepage.png" width="650">
 
 ## Overview
 
