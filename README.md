@@ -14,7 +14,7 @@ A responsive personal portfolio website built with **HTML** and **CSS** to stren
   * **About** page
   * **Projects** page
 * Responsive design for desktop, tablet, and mobile devices
-<details><summary>📸 Click here to view the mobile responsiveness!</summary><img src="mobilehome.jpg" height="500"></details>
+  <details><summary>📸 Click here to view the mobile responsiveness!</summary><img src="mobilehome.jpg" height="500"></details>
 
 * Clickable navigation and buttons
 * Images throughout the site
